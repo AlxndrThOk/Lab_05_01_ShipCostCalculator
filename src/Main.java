@@ -6,6 +6,7 @@ public class Main {
         double totalCost = 0;
         double SHIPPING_RATE = 0.02;
         double FREE_SHIPPING_CUTOFF = 100;
+        System.out.println("What is the item price?");
         itemPrice = 200;
         if (itemPrice < FREE_SHIPPING_CUTOFF)
         {
